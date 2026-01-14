@@ -1,8 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="https://cdn.botpress.cloud/webchat/v3.5/inject.js"></script>
-    <script src="https://files.bpcontent.cloud/2026/01/12/15/20260112153216-C899ERTV.js" defer></script>
+    
+<link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+<script type="module">
+import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+	createChat({
+		webhookUrl: 'https://nalinda2u.app.n8n.cloud/webhook/4c4cc7cd-00ba-487c-9186-07271484e688/chat'
+	});
+</script>
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -81,3 +88,4 @@
 </body>
 
 </html>
+
